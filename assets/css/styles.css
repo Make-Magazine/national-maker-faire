@@ -1114,3 +1114,13 @@ a.btn-scroll:hover span {
     text-align: center;
   }
 }
+/* Campaign monitor */
+.modal #response {
+  font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  font-size: 15px;
+  margin: 23px 0 0 20px;
+  padding: 0 0 0 25px;
+  color: #9099A3;
+  background: url('../img/city/tick.png') left center no-repeat;
+  display: none;
+}
