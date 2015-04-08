@@ -80,7 +80,7 @@ form .form-control {
 }
 form input,
 form textarea {
-  background-color: #424a4b;
+  background-color: #dddddd;
 }
 form input:focus,
 form textarea:focus {
