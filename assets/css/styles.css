@@ -1010,11 +1010,15 @@ a.btn-scroll:hover span {
   color: black;
   /* background-image: url('../img/city/modal.png');  */
 }
+.modal-content .modal-header {
+  border-bottom: 0px;
+}
 .modal-content .modal-header h4 {
   font-size: 36px;
 }
 .modal-content .modal-header .close {
-  font-size: 40px;
+  font-size: 70px;
+  margin-top: -30px;
 }
 /* Small devices (tablets, 768px) */
 @media (max-width: 767px) {
