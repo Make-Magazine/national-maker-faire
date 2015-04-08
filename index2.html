@@ -228,6 +228,7 @@
     <p>
         <button type="submit">Subscribe</button>
 		<div id="response">Thanks! You're subscribed</div>
+		<div id="error">Please enter your email address and choose at least one option.</div>
     </p>
 </form>
 
@@ -282,7 +283,7 @@
 				$(this).serialize(),
 				function (data) {
 					$('button').stop().fadeTo(200,1);
-					if (data.Status === 400) { $('#email').addClass('error'); } else { $('#response').show(); }
+					if (data.Status === 400) { $('#error').show(); } else { $('#response').show(); }
 				});
 			});
 		});
