@@ -283,7 +283,7 @@
 				$(this).serialize(),
 				function (data) {
 					$('button').stop().fadeTo(200,1);
-					if (data.Status === 400) { $('#error').show(); } else { $('#response').show(); }
+					if (data.Status === 400) { $('#error').show(); } else { $('#error').hide(); $('#response').show(); }
 				});
 			});
 		});
