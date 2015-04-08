@@ -1,0 +1,353 @@
+.options {
+  position: fixed;
+  top: 60px;
+  right: -200px;
+  width: 200px;
+  padding: 20px;
+  color: #818181;
+  line-height: 14px;
+  background: #f5f5f5;
+  color: #000;
+  z-index: 50;
+  -webkit-border-top-left-radius: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  -moz-border-radius-topleft: 5px;
+  -moz-border-radius-bottomleft: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  font-size: 14px;
+  font-weight: 400;
+}
+.options .more {
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  background: #f5f5f5;
+  position: absolute;
+  left: -40px;
+  top: 10px;
+  font-size: 24px;
+  line-height: 40px;
+  text-align: center;
+  -webkit-border-top-left-radius: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  -moz-border-radius-topleft: 5px;
+  -moz-border-radius-bottomleft: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.options a {
+  display: block;
+  margin: 15px 0 0 0;
+  color: #000;
+  font-size: 14px;
+  text-align: center;
+}
+.options a img {
+  margin: 0 auto 5px auto;
+  display: block;
+  max-width: 100px;
+}
+.options label {
+  font-weight: normal;
+}
+.options p {
+  margin: 0 0 20px 0;
+}
+.options h4 {
+  font-size: 18px;
+  text-align: center;
+}
+.introPage {
+  color: #2d3132;
+  font-family: 'Source Sans Pro', 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 200;
+  padding-bottom: 200px;
+}
+.introPage.pages {
+  padding: 100px 0;
+  display: none;
+}
+.introPage.pages h1 {
+  margin: 0 0 15px 0;
+}
+.introPage.pages .listing .i:first-child {
+  margin-top: 50px;
+}
+.introPage a {
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  color: #2d3132;
+  text-decoration: none;
+}
+.introPage .scrolldown {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -20px;
+}
+.introPage .btn-scroll {
+  color: white;
+  padding: 5px;
+  background: rgba(255, 255, 255, 0.3);
+}
+.introPage a.btn-scroll:hover span {
+  background: white;
+  color: #2d3132;
+}
+.introPage .btn-scroll span {
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  display: block;
+  padding: 10px 10px;
+  font-size: 20px;
+  background: #2d3132;
+}
+.introPage .introHeader {
+  padding: 160px 0;
+  margin: 0 0 80px 0;
+  position: relative;
+  background: #1f45c6;
+  background: -webkit-linear-gradient(left, #1f45c6, #7e34de);
+  background: -o-linear-gradient(right, #1f45c6, #7e34de);
+  background: -moz-linear-gradient(right, #1f45c6, #7e34de);
+  background: linear-gradient(to right, #1f45c6, #7e34de);
+}
+.introPage .introHeader h1 {
+  font-weight: bold;
+  font-size: 150px;
+  line-height: 110px;
+  margin: 20px 0 30px 0;
+  text-transform: uppercase;
+}
+.introPage .introHeader h2 {
+  font-size: 24px;
+  text-transform: uppercase;
+  margin: 15px 0 20px 0;
+}
+.introPage .introHeader a {
+  color: #fff;
+  text-decoration: none;
+}
+.introPage .introHeader .btn {
+  min-width: 165px;
+}
+.introPage .introHeader .btn:hover {
+  background: #fff;
+  color: #3c40ce;
+}
+.introPage .btn {
+  border: 1px solid #d4d8d9;
+  color: #2d3132;
+  font-size: 16px;
+  text-transform: uppercase;
+  border-radius: 0;
+  padding: 15px 32px;
+}
+.introPage .btn.btn-white {
+  background: #fff;
+  color: #3c40ce;
+}
+.introPage .btn.btn-preview:hover {
+  background: #2d3132;
+  color: #fff;
+  border-color: #2d3132;
+}
+.introPage .special-element {
+  width: 112px;
+  display: block;
+  line-height: 28px;
+  margin-bottom: -10px;
+  text-align: center;
+}
+.introPage .special-element.center {
+  left: 50%;
+  position: relative;
+  margin-left: -56px;
+}
+.introPage .special-element span {
+  border: 5px solid white;
+  border-radius: 10px;
+  -moz-border-radius: 5px;
+  -webkit-border: 5px;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  position: relative;
+}
+.introPage .special-element span:before,
+.introPage .special-element span:after {
+  content: " ";
+  border-top: 2px solid white;
+  display: inline;
+  position: absolute;
+  left: 9px;
+  width: 46px;
+}
+.introPage .special-element span:after {
+  left: auto;
+  right: 9px;
+}
+.introPage .listing .i {
+  margin-top: 80px;
+}
+.introPage .listing .i:first-child {
+  margin-top: 0;
+}
+.introPage .listing .i h3 {
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 0 0 20px 0;
+}
+.introPage .listing .i h3 a:hover {
+  color: #3c40ce;
+}
+.introPage .listing .i .btn-preview {
+  margin: 15px 0 0;
+}
+.introPage .listing .i .btn-preview .icon {
+  margin: 0 0 0 8px;
+}
+.introPage .preview-sprite {
+  background: url('../../img/sprite-preview.png');
+}
+.introPage .preview-icon.urban-style {
+  width: 50px;
+  height: 10px;
+  margin-bottom: 15px;
+}
+.introPage .preview-icon.meet-the-nature {
+  width: 72px;
+  height: 31px;
+  margin-bottom: 5px;
+  background-position: 0 -20px;
+}
+.introPage .preview-icon.one-page-taste {
+  width: 78px;
+  height: 18px;
+  margin-bottom: 10px;
+  background-position: 0 -62px;
+}
+.introPage .preview-icon.mens-weakness {
+  width: 72px;
+  height: 26px;
+  margin-bottom: 7px;
+  background-position: -88px 0;
+}
+.introPage .preview-icon.the-beast {
+  width: 61px;
+  height: 12px;
+  margin-bottom: 12px;
+  background-position: -88px -36px;
+}
+.introPage .preview-icon.black-white {
+  width: 100px;
+  height: 8px;
+  margin-bottom: 15px;
+  background-position: -88px -58px;
+}
+.introPage .container,
+.introPage .col-xs-1,
+.introPage .col-sm-1,
+.introPage .col-md-1,
+.introPage .col-lg-1,
+.introPage .col-xs-2,
+.introPage .col-sm-2,
+.introPage .col-md-2,
+.introPage .col-lg-2,
+.introPage .col-xs-3,
+.introPage .col-sm-3,
+.introPage .col-md-3,
+.introPage .col-lg-3,
+.introPage .col-xs-4,
+.introPage .col-sm-4,
+.introPage .col-md-4,
+.introPage .col-lg-4,
+.introPage .col-xs-5,
+.introPage .col-sm-5,
+.introPage .col-md-5,
+.introPage .col-lg-5,
+.introPage .col-xs-6,
+.introPage .col-sm-6,
+.introPage .col-md-6,
+.introPage .col-lg-6,
+.introPage .col-xs-7,
+.introPage .col-sm-7,
+.introPage .col-md-7,
+.introPage .col-lg-7,
+.introPage .col-xs-8,
+.introPage .col-sm-8,
+.introPage .col-md-8,
+.introPage .col-lg-8,
+.introPage .col-xs-9,
+.introPage .col-sm-9,
+.introPage .col-md-9,
+.introPage .col-lg-9,
+.introPage .col-xs-10,
+.introPage .col-sm-10,
+.introPage .col-md-10,
+.introPage .col-lg-10,
+.introPage .col-xs-11,
+.introPage .col-sm-11,
+.introPage .col-md-11,
+.introPage .col-lg-11,
+.introPage .col-xs-12,
+.introPage .col-sm-12,
+.introPage .col-md-12,
+.introPage .col-lg-12 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.introPage .row {
+  margin-right: -10px;
+  margin-left: -10px;
+}
+@media (max-width: 460px) {
+  .introPage .introHeader .btn {
+    min-width: 135px;
+    padding: 15px;
+  }
+}
+@media (max-width: 767px) {
+  .introPage .introHeader h1 {
+    font-size: 100px;
+  }
+  .introPage .container {
+    max-width: 460px;
+  }
+  .introPage .i .col-xs-6 {
+    width: 100%;
+  }
+  .introPage .i .preview-icon {
+    margin-top: 20px;
+  }
+}
+@media (min-width: 768px) {
+  .introPage .listing .i:nth-child(odd) .text {
+    padding-left: 30px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .introPage .listing .i h3 {
+    font-size: 26px;
+    margin: 0 0 15px 0;
+  }
+  .introPage .listing .i p {
+    font-size: 15px;
+  }
+  .introPage .listing .i .btn-preview {
+    padding: 10px 32px;
+    margin: 10px 0 0;
+  }
+}
+@media (min-width: 1200px) {
+  .introPage .container {
+    width: 970px;
+  }
+}
