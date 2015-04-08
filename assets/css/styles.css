@@ -150,6 +150,11 @@ form textarea:focus {
   right: 9px;
 }
 /* Buttons */
+/*
+.btn:focus, .btn:active:focus, .btn.active:focus, .btn:active {
+  outline: none;
+}
+*/
 .btn {
   background: rgba(0, 0, 255, 0.3);
   font-size: 26px;
@@ -176,7 +181,7 @@ form textarea:focus {
   padding: 18px 30px;
 }
 a.btn:hover {
-  color: black;
+  color: red;
   background: white;
 }
 .btn-default {
