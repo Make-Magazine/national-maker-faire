@@ -158,6 +158,12 @@
 		});
 	</script>
 
+    <script>
+    /* Workaround for element getting highlighted after return from modal. */
+    $("#deselect").on("focus",function(){
+      $(this).blur();
+    });
+    </script>
 
   </body>
 </html>
