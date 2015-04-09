@@ -150,11 +150,6 @@ form textarea:focus {
   right: 9px;
 }
 /* Buttons */
-/*
-.btn:focus, .btn:active:focus, .btn.active:focus, .btn:active {
-  outline: none;
-}
-*/
 .btn {
   background: rgba(0, 0, 255, 0.3);
   font-size: 26px;
@@ -583,7 +578,7 @@ a.btn-scroll:hover span {
 }
 #footer {
   background-color: #1d2020;
-  color: #48494b;
+  color: #cccccc;
   font-size: 18px;
 }
 #footer a {
@@ -603,8 +598,8 @@ a.btn-scroll:hover span {
 }
 #footer .soc {
   margin-right: 15px;
-  border-color: #666665;
-  color: #666665;
+  border-color: #FFFFFF;
+  color: #00aeef;
 }
 #footer a.soc:hover {
   color: black;
@@ -1013,7 +1008,6 @@ a.btn-scroll:hover span {
 .modal-content {
   border-radius: 0;
   color: black;
-  /* background-image: url('../img/city/modal.png');  */
 }
 .modal-content .modal-header {
   border-bottom: 0px;
@@ -1151,6 +1145,9 @@ a.btn-scroll:hover span {
   line-height: 0.5;
   padding: 3px;
   opacity: 1;
+}
+.modal-header .h2 {
+  font-family: "rosewood-std-fill", sans-serif;
 }
 .modal-content {
   border-radius: 0;
