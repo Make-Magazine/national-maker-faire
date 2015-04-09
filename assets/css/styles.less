@@ -1099,7 +1099,7 @@ a.btn-scroll:hover span {
 }
 
 .modal-body form {
-  margin-left: 22%;
+  margin-left: 13%;
   label {
   	margin-bottom: 0px
   }
@@ -1116,7 +1116,6 @@ a.btn-scroll:hover span {
   background: linear-gradient(to bottom, rgba(255,42,42,1) 0%,rgba(245,25,25,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff2a2a', endColorstr='#f51919',GradientType=0 );
   padding: 5px 15px;
-  margin-left:10px;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
   border-radius: 2px;
@@ -1135,6 +1134,8 @@ a.btn-scroll:hover span {
   background-color: #fff;
   border: 2px solid #ddd;
   padding-left: 5px;
+  margin-bottom: 10px;
+  margin-right: 10px;
 }
 
 .border-div {
@@ -1144,4 +1145,10 @@ a.btn-scroll:hover span {
     bottom: 10px;
     right: 10px;
     border: 2px #FFFFFF dashed;
+}
+
+@media (max-width: 470px) {
+	.modal-content .modal-header .close {
+		  top: -124px;
+	}
 }
