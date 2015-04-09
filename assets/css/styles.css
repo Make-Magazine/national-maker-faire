@@ -1146,8 +1146,8 @@ a.btn-scroll:hover span {
   padding: 3px;
   opacity: 1;
 }
-.modal-header .h2 {
-  font-family: "rosewood-std-fill", sans-serif;
+.modal-content .modal-header .h2 {
+  font-family: "rosewood-std-fill";
 }
 .modal-content {
   border-radius: 0;
