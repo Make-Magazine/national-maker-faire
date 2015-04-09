@@ -79,7 +79,7 @@
         <div class="modal-content">
           <div class="border-div"></div>
           <div class="modal-header">
-            <h2>Answer the Call</h2>
+            <h2>Answer the Call!</h2>
             <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
           </div>
 
@@ -154,7 +154,7 @@
 				$(this).serialize(),
 				function (data) {
 					$('button').stop().fadeTo(200,1);
-					if (data.Status === 400) { $('#error').show(); } else { $('#error').hide(); $('#response').show(); }
+					if (data.Status === 400) { $('#error').show(); } else { $('#error').hide(); $('#response').show();  }
 				});
 			});
 		});
@@ -164,6 +164,12 @@
     /* Workaround for element getting highlighted after return from modal. */
     $("#deselect").on("focus",function(){
       $(this).blur();
+    });
+    $("#modalText").on('hidden.bs.modal',function(){
+      $('input:checkbox').removeAttr('checked'); 
+      $('#fieldEmail').val('');
+      $('#response').hide();
+      $('#error').hide();
     });
     </script>
 
