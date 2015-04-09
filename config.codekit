@@ -615,6 +615,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/city\/bg-city-intro.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 307818,
+		"inputAbbreviatedPath": "\/assets\/img\/city\/bg-city-intro.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/city\/bg-city-intro.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/city\/cross.png": {
 		"fileType": 32768,
 		"ignore": 0,
