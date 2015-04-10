@@ -334,25 +334,10 @@ a.btn-scroll:hover span {
   background: transparent url('../../img/bg-pattern.png');
 }
 #intro {
-  background: #20a0c2;
-  /* Old browsers */
-  background: -moz-linear-gradient(left, #20a0c2 0%, #2ed2ab 100%);
-  /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, right top, color-stop(0%, #20a0c2), color-stop(100%, #2ed2ab));
-  /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(left, #20a0c2 0%, #2ed2ab 100%);
-  /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(left, #20a0c2 0%, #2ed2ab 100%);
-  /* Opera 11.10+ */
-  background: -ms-linear-gradient(left, #20a0c2 0%, #2ed2ab 100%);
-  /* IE10+ */
-  background: linear-gradient(to right, #20a0c2 0%, #2ed2ab 100%);
-  /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@color1', endColorstr='@color2', GradientType=1);
-  /* IE6-9 */
+  /* .gradient(@slide1_color1, @slide1_color2); */
 }
 #intro.image-background {
-  background-image: url('../img/default/bg-intro.jpg');
+  background-image: url('../img/city/bg-city-intro.jpg');
 }
 #intro h1 {
   font-size: 125px;
